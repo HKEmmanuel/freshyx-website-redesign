@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@layer base {
+  
+  :root {
+    /* Couleurs de base (mode clair) */
+    --background: 0 0% 96%;     /* Arrière-plan claire (blanc pur) */
+    --foreground: 222 47% 11%;             /* Texte sombre */ 
+    
+    /* Couleur Primaire (Vert Émeraude/Bleu-vert de FRESHYX) */
+    --primary: 156 100% 37%;                /* Vert Émeraude Vif*/
+    --primary-foreground: 0 0% 100%;       /* Texte blanc sur primaire */
+    
+    /* Couleur Secondaire/Accent (Jaune de FRESHYX) */
+    --secondary: 44 96% 49%;              /* Jaune Vif  */
+    --secondary-foreground: 222 47% 11%;    /* Texte sombre sur secondaire */
+    
+    --card: 0 0% 80%;                   /* Gris clair pour cartes */
+    --card-foreground: 222 47% 11%;
+    --muted-foreground: 215 25% 27%;       /* Texte discret */
+    --border: 0 0% 90%;                 /* Bordure claire */
+    --title: 222 47% 11%;                  /* Titre sombre */
+    --subtitle: 160 84% 39%;               /* Sous-titre Vert */
+  }
+
+  .dark {
+    /* Couleurs de base (mode sombre) */
+    --background: 170 100% 13%;      /* Arrière-plan sombre (vert sombre) */
+    --foreground: 0 0% 100%;         /* Texte blanc pur */
+    
+    /* Couleur Primaire (Vert Émeraude de FRESHYX) */
+    --primary: 156 100% 37%;                /* Maintien du Vert Vif */
+    --primary-foreground: 0 0% 100%;        /* Texte blanc sur primaire */
+    
+    /* Couleur Secondaire/Accent (Jaune de FRESHYX) */
+    --secondary: 44 96% 49%;              /* Maintien du Jaune Vif */
+    --secondary-foreground: 222 47% 11%;   /* Texte sombre sur secondaire */
+    
+    --card: 0 0% 65%;                   /* Gris moins clair pour cartes */
+    --card-foreground: 0 0% 100%;
+    --muted-foreground: 215 20% 65%;
+    --border: 222 47% 20%;
+    --title: 0 0% 100%;
+    --subtitle: 160 84% 39%;
+  }
+
+  
+  * {
+    border-color: hsl(var(--border));
+  }
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
