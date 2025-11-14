@@ -14,7 +14,7 @@ export default function AboutPage() {
       <HeroSection />
       <ImpactMapSection />
       <TimelineSection />
-      < MissionSection />
+      <MissionSection />
       <ValuesSection />
       <PhotoGallerySection />
       <FAQSection />

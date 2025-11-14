@@ -38,21 +38,21 @@ export default function TimelineSection() {
           <TimelineItem
             year="2023"
             title="FRESHYX a été créée"
-            text="Tout a commencé en 2023. Quelques jeunes, un rêve commun : prouver que l'Afrique peut mener la transition écologique, grâce à sa créativité et à son génie."
+            text="animés par le rêve de promouvoir la compréhension interculturelle entre les nations. Ils aspiraient à changer le monde, une personne et un stage à la fois.."
             imageUrl="public/creation.png"
           />
 
           <TimelineItem
             year="2024"
             title="Répartis dans 7 pays"
-            text="Aujourd'hui, Freshyx c'est un réseau qui s'étend à travers 7 pays africains, plus de 10 partenaires institutionnels, et une énergie contagieuse : celle d'une jeunesse qui apprend, agit et inspire."
+            text="À ce jour, plus de 40 000 jeunes du monde entier ont participé à un programme de développement du leadership.."
             imageUrl="public/ag2024.png"
           />
 
           <TimelineItem
             year="2025"
             title="Mouvement de leadership des jeunes"
-            text="Chaque projet, chaque campagne, chaque formation est une expérience de leadership. Parce qu'on ne change pas le monde derrière un écran, mais les mains dans la terre et les yeux tournés vers l'avenir."
+            text="En résumé, FRESHYX est un réseau mondial de personnes qui croient tout simplement que le leadership des jeunes n est pas une option, mais notre responsabilité.."
             imageUrl="public/7pays.png"
             isLast={true}
           />
