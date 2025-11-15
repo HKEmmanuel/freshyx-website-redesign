@@ -67,7 +67,7 @@ const ProgramsSection: React.FC = () => {
     <section className="py-20 md:py-32 bg-card">
       <div className="container m-auto mx-12 px-4">
         <div className="max-w-3xl mb-12 md:mb-16">
-          <h2 className="text-4xl md:text-5xl font-extra text-title mb-4">
+          <h2 className="text-4xl md:text-5xl font-medium text-title mb-4">
             Nos programmes
           </h2>
           <p className="text-lg text-foreground/90">

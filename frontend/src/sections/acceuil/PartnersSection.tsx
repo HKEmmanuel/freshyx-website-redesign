@@ -2,7 +2,7 @@ export default function PartnersSection() {
   return (
     <section className="w-full bg-[hsl(var(--background))] py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-extra text-[hsl(var(--title))] text-center mb-12">
+        <h2 className="text-3xl md:text-4xl font-medium text-[hsl(var(--title))] text-center mb-12">
           Ils nous font confiance
         </h2>
 

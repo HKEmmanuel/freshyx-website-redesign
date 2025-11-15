@@ -12,7 +12,7 @@ export default function ParticipationSection() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center m-8">
           <div className="text-left">
-            <h2 className="text-4xl md:text-5xl font-extra text-[hsl(var(--title))] mb-6 leading-tight">
+            <h2 className="text-4xl md:text-5xl font-medium text-[hsl(var(--title))] mb-6 leading-tight">
               Participez aux activités de FRESHYX et vivez des experiences
               concrètes
             </h2>

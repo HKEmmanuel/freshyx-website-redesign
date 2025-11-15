@@ -2,7 +2,7 @@ export default function ImpactSection() {
   return (
     <section className="w-full bg-[hsl(var(--background))] py-24 px-4 sm:px-6 lg:px-8">
       <div className="max-w-5xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-extra text-[hsl(var(--title))] mb-16">
+        <h2 className="text-4xl md:text-5xl font-medium text-[hsl(var(--title))] mb-16">
           Notre impact
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-16">

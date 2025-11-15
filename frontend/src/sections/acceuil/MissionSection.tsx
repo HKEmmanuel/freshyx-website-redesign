@@ -3,7 +3,7 @@ export default function MissionSection() {
     <section className="w-full bg-[hsl(var(--background))] py-24 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto">
         <div className="mb-16">
-          <h2 className="text-4xl md:text-5xl font-extra text-[hsl(var(--title))] mb-8">
+          <h2 className="text-4xl md:text-5xl font-medium text-[hsl(var(--title))] mb-8">
             La voie FRESHYX
           </h2>
 

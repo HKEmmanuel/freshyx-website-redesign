@@ -4,7 +4,7 @@ const HeroSection = () => {
     <section className="py-8 md:py-0 bg-background">
       <div className="container mx-auto px-4 grid md:grid-cols-2 gap-4 items-center">
         <div className="space-y-6 justify-center text-center">
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-extra leading-tight text-title mb-4">
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-medium leading-tight text-title mb-4">
             Allions la technologie à l'environnement !
           </h1>
           <p className="text-lg text-foreground/90">
