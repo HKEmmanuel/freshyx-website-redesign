@@ -1,25 +1,26 @@
 import React from "react";
+import { href } from "react-router-dom";
 
 const programs = [
   {
     title: "Empreinte carbone",
     imageUrl: "/public/empreintecarbone-p2p1.png",
     accentColor: "primary",
-    buttonText: "Empreinte carbone",
+    buttonText: "Rejoignez le mouvement",
     isButton: true,
   },
   {
     title: "Volontaire",
     imageUrl: "/public/volontaire-p3p1.png",
     accentColor: "secondary",
-    buttonText: "Volontaire",
+    buttonText: "Devenez volontaire",
     isButton: false,
   },
   {
-    title: "Developpez vos Talents",
+    title: "Talent",
     imageUrl: "/public/talent-p4p1.png",
     accentColor: "muted",
-    buttonText: "Talent",
+    buttonText: "Developpez vos Talent",
     isButton: true,
   },
 ];
@@ -37,26 +38,30 @@ const ProgramCard: React.FC<ProgramCardProps> = ({ program }) => {
   return (
     <div className="group overflow-hidden rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 bg-background border border-border/50">
       <div className="relative h-64 w-full">
-        <img
-          src={program.imageUrl}
-          alt={`Programme ${program.title}`}
-          className="w-full h-full object-cover"
-          onError={(e) => {
-            e.currentTarget.onerror = null;
-            e.currentTarget.style.display = "none";
-          }}
-        />
+        <a href="#">
+          <img
+            src={program.imageUrl}
+            alt={`Programme ${program.title}`}
+            className="w-full h-full object-cover"
+            onError={(e) => {
+              e.currentTarget.onerror = null;
+              e.currentTarget.style.display = "none";
+            }}
+          />
+        </a>
       </div>
 
       <div
         className={`w-full py-4 text-center font-bold text-lg cursor-pointer transition-colors duration-300 
-                            ${buttonClass} ${
+             
+          ${buttonClass} ${
           program.isButton
             ? " bg-[hsl(var(--primary))] text-[hsl(var(--primary-foreground))]"
             : "text-title"
-        }`}
+        } 
+        `}
       >
-        {program.buttonText}
+        <a href="#"> {program.buttonText}</a>
       </div>
     </div>
   );
