@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 import { Search, Sun, Moon, ChevronDown } from 'lucide-react';
 
 const navLinks = [
-  { name: 'À propos', href: '/about.tsx' },
-  { name: 'Partenaires', href: '/partners.tsx' },
+  { name: 'À propos', href: '/about' },
+  { name: 'Partenaires', href: '/partners' },
 ];
 
 const Navbar: React.FC = () => {
@@ -18,7 +18,7 @@ const Navbar: React.FC = () => {
     <header className="sticky top-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
       <div className="container mx-auto flex items-center justify-between p-4 gap-4">
         
-        <a href="/" className={logoStyle}>FRESHYX</a>
+        <Link to="/" className={logoStyle}>FRESHYX</Link>
 
         <div className="hidden lg:flex flex-grow max-w-lg relative mr-6">
           <input
@@ -32,9 +32,9 @@ const Navbar: React.FC = () => {
         <nav className="flex items-center space-x-4">
           
           {navLinks.map((link) => (
-            <a key={link.name} href={link.href} className="hidden lg:inline-flex text-foreground hover:text-primary transition-colors font-medium">
+            <Link key={link.name} to={link.href} className="hidden lg:inline-flex text-foreground hover:text-primary transition-colors font-medium">
               {link.name}
-            </a>
+            </Link>
           ))}
 
           <button className="hidden sm:inline-flex items-center border border-foreground/30 text-foreground hover:bg-foreground/5 bg-background rounded-md px-3 py-1.5 text-xs font-normal">

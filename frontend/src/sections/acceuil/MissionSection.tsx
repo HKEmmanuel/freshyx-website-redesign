@@ -3,7 +3,7 @@ export default function MissionSection() {
     <section className="w-full bg-[hsl(var(--background))] py-24 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto">
         <div className="mb-16">
-          <h2 className="text-4xl md:text-5xl font-extrabold text-[hsl(var(--title))] mb-8">
+          <h2 className="text-4xl md:text-5xl font-extra text-[hsl(var(--title))] mb-8">
             La voie FRESHYX
           </h2>
 
@@ -42,7 +42,7 @@ export default function MissionSection() {
             />
           </div>
 
-          <h3 className="text-2xl font-semibold text-[hsl(var(--title))] mb-4 max-w-lg mx-auto">
+          <h3 className="text-2xl font-semi text-[hsl(var(--title))] mb-4 max-w-lg mx-auto">
             Nous formons des éco-leaders animés par le sens et l'action.
           </h3>
 

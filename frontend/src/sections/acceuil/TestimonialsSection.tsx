@@ -27,15 +27,15 @@ const ArrowRightIcon = () => (
 export default function TestimonialSection() {
   return (
     <section className="w-full bg-[hsl(var(--background))] py-24 overflow-hidden">
-      <div className="max-w-3xl mx-auto text-center px-4 mb-16">
-        <h2 className="text-4xl md:text-5xl font-extrabold text-[hsl(var(--title))] mb-6">
+      {/*<div className="max-w-3xl mx-auto text-center px-4 mb-16">
+         <h2 className="text-4xl md:text-5xl font-extra text-[hsl(var(--title))] mb-6">
           Témoignages & histoires
         </h2>
         <p className="text-lg text-[hsl(var(--foreground))]">
           Grâce à notre soutien, de nombreux jeunes et acteurs du numérique ont
           pu franchir des étapes décisives et réaliser leurs ambitions.
         </p>
-      </div>
+      </div>*/}
 
       <div className="relative pl-4 sm:pl-6 lg:pl-12">
         <div className="flex items-center gap-6 lg:gap-8">

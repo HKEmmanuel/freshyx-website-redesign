@@ -16,9 +16,9 @@ const programs = [
     isButton: false,
   },
   {
-    title: "Talent",
+    title: "Developpez vos Talents",
     imageUrl: "/public/talent-p4p1.png",
-    accentColor: "primary",
+    accentColor: "muted",
     buttonText: "Talent",
     isButton: true,
   },
@@ -32,7 +32,7 @@ const ProgramCard: React.FC<ProgramCardProps> = ({ program }) => {
   const accentClass = `bg-${program.accentColor}`;
   const buttonClass = program.isButton
     ? "bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg"
-    : `text-title/80 ${accentClass}`;
+    : `text-title/90 ${accentClass}`;
 
   return (
     <div className="group overflow-hidden rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 bg-background border border-border/50">
@@ -67,10 +67,10 @@ const ProgramsSection: React.FC = () => {
     <section className="py-20 md:py-32 bg-card">
       <div className="container m-auto mx-12 px-4">
         <div className="max-w-3xl mb-12 md:mb-16">
-          <h2 className="text-4xl md:text-5xl font-extrabold text-title mb-4">
+          <h2 className="text-4xl md:text-5xl font-extra text-title mb-4">
             Nos programmes
           </h2>
-          <p className="text-lg text-foreground/80">
+          <p className="text-lg text-foreground/90">
             Nous faisons de vos expériences une opportunité d'agir pour
             l'environnement et de créer des solutions durables.
           </p>

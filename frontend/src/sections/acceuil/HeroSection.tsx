@@ -4,8 +4,8 @@ const HeroSection = () => {
     <section className="py-8 md:py-0 bg-background">
       <div className="container mx-auto px-4 grid md:grid-cols-2 gap-4 items-center">
         <div className="space-y-6 justify-center text-center">
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight text-title mb-4">
-            Allions la technologie et l'environnement
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-extra leading-tight text-title mb-4">
+            Allions la technologie à l'environnement !
           </h1>
           <p className="text-lg text-foreground/90">
             Que ce soit dans votre ville, en ligne ou à l’international, lancez
@@ -14,7 +14,8 @@ const HeroSection = () => {
           <div className="space-x-4 pt-4">
             <Link
               to="/adhesion"
-              className="font-semibold transition-colors duration-200 focus:outline-none bg-[hsl(var(--primary))] text-[hsl(var(--primary-foreground))] hover:bg-primary/90 shadow-md px-6 py-3 rounded-full"
+              className="inline-block bg-[hsl(var(--primary))] text-[hsl(var(--primary-foreground))] font-bold py-3 px-10 rounded-lg text-lg
+                         transition-transform duration-200 ease-in-out hover:scale-105"
             >
               Rejoignez-nous
             </Link>
